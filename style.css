@@ -1,0 +1,127 @@
+body
+{
+    margin: 20px;
+}
+p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.comments
+{
+    background-color: rgb(233, 224, 224);
+}
+.datos
+{
+    background-color: thistle;
+}
+.selectinfo
+{
+    background-color: whitesmoke;
+}
+#btnusers
+{
+    background-color: #008CBA;
+    font-size: 18px;
+    font-weight: bold;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#datosusuario
+{
+    background-color:#4CAF50;
+    font-size: 14px;
+    font-weight: bold;
+    width: 160px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#btncomments
+{
+    background-color: #e2df3f;
+    font-size: 14px;
+    font-weight: bold;
+    width: 160px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#btnquitarcomments
+{
+    color: white;
+    background-color: #555555;
+    font-size: 14px;
+    font-weight: bold;
+    width: 160px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#btncerrardatos
+{
+    background-color: #f44336;
+    font-size: 14px;
+    font-weight: bold;
+    width: 160px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.content-input input,
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.content-select select::-ms-expand {
+    display: none;
+}
+.content-select{
+	max-width: 250px;
+	position: relative;
+}
+ 
+.content-select select{
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #7b7b7b;
+	font-size: 1em;
+	color: #999;
+	font-family: 
+	'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+.content-select select:hover{
+	background: #B1E8CD;
+}
+.content-select i{
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 13px);
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid #2AC176;
+	border-bottom:4px solid #2AC176;
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+	transition: all 0.25s ease;
+}
+ 
+.content-select:hover i{
+	margin-top: 3px;
+}
